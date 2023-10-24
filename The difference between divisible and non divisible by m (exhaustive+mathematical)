@@ -1,0 +1,4 @@
+def f(n, m):
+    k = n // m
+    s = n*(n+1)//2
+    return s-m*k*(k+1)
